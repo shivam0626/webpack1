@@ -1,0 +1,23 @@
+
+#products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    gap: 20px;
+    text-align: center;
+}
+#box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    height: 450px;
+}
+img{
+    margin-top: 15px;
+    width: 70%;
+    height: 65%;
+}
+p{
+    color: brown;
+    font-weight: bold;
+}
